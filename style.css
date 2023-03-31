@@ -1,0 +1,128 @@
+main {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.topRow {
+    display: flex;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.topRow > div {
+    background-color: skyblue;
+    flex: 1;
+}
+
+.topRow > div:nth-child(2) {
+    margin: 0 10px 0 10px;
+}
+
+.medRow {
+    height: 400px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+
+.bottomRow {
+    height: 20px;
+    background-color: yellowgreen;
+}
+
+.circle {
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    /* position: fixed; */
+}
+
+.one {
+    /* width: 150px; */
+    width: 20vw;
+    height: 20vw;
+    /* height: 150px; */
+    background-color: yellow;
+    left: 15%;
+    top: 17%;
+}
+
+.two {
+    left: 33%;
+    top: 10%;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.three {
+    left: 35%;
+    top: 30%;
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+}
+
+.four {
+    left: 8%;
+    top: 4%;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+}
+
+.five {
+    left: 10%;
+    top: 40%;
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.tri-one {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellowgreen;
+    left: 60%;
+    top: 58%;
+    z-index: 3;
+}
+
+.tri-two {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid green;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.formInput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.submitButton {
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    align-self: center;
+    background-color: skyblue;
+}
