@@ -18,7 +18,7 @@ main {
     margin: 0 10px 0 10px;
 }
 
-.medRow {
+#medRow {
     height: 400px;
     background-color: skyblue;
     margin-bottom: 10px;
@@ -38,9 +38,10 @@ main {
 
 .one {
     /* width: 150px; */
+    /* height: 150px; */
+    /* instead of using pixels, you can use vw for a responsive design */
     width: 20vw;
     height: 20vw;
-    /* height: 150px; */
     background-color: yellow;
     left: 15%;
     top: 17%;
@@ -125,4 +126,11 @@ h3 {
     padding: .5rem 3rem;
     align-self: center;
     background-color: skyblue;
+}
+
+.test {
+    background-color: lightyellow;
+    padding: 1rem 10rem;
+    margin:  1rem 5rem;
+    border: 1px solid black;
 }
